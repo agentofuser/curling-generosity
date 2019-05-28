@@ -146,9 +146,11 @@ later.
 
 I want to see a log of every tip to every publisher ever, regardless of whether
 it came from deliberate tipping, time-spent auto-contribute, action-based
-auto-contribute. Ideally, I can see a snapshot of what the tab looked like when
-I did it, how many BATs I gave, how much they were worth in USD at the time,
-etc., etc.
+auto-contribute.
+
+Ideally, I can see a snapshot of what the tab looked like when I did it, how
+many BATs I gave, how much they were worth in USD at the time, etc., etc.
+(That's also a great place to put a tweet button for individual tips.)
 
 ---
 
