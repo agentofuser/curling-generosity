@@ -1,9 +1,21 @@
-# Curling Generosity 🎁🧹🥌
+# RFC: Curling Generosity
 
 [![10x sweeping](curlings-broom-boom.jpg '10x sweeping')](https://ca.sports.yahoo.com/blogs/eh-game/curling-s-broom-boom-leads-to-player-meeting-in-toronto--are-regulations-coming-022117902.html)
 
 _Here are some thoughts about tipping on Brave. I'm a big fan of the project
 and the team and I mean no disrespect. Please excuse any excessive candor._
+
+## Recap
+
+- React to tipping as matter-of-factly as Twitter reacts to a like
+- Allow zero-click, action-based auto-contribute (tip-on-like, tip-on-RT)
+- Set up browser-wide default tip amount, save when changed
+- At most one-click tipping always
+- Allow a comfortable (eg. monthly) window for undoing tips
+- Enqueue all tips by default; make final or cancel on Rewards screen
+- Enable offline tipping (comes for free with queueing by default)
+- Enable tipping without funds ("adding to shopping cart")
+- Give me full visibility into where my money is going (audit log)
 
 ## Tipping is not a big deal
 
@@ -32,8 +44,8 @@ gifting.
 People do copy urls and tweet on their own when the situation affords it, no
 need to add friction to enable that use case.
 
-If you have to choose between making it easier to **tip again** vs _share that
-you tipped_, err on the side of more tipping.
+If you have to choose between making it easier to **tip again** vs _share the
+fact that you tipped_, err on the side of more tipping.
 
 **Let the happy publishers who are watching the
 extra-money-due-to-reduced-friction come in be your loudspeaker.**
@@ -44,8 +56,8 @@ Tipping in places that already have their own appreciation / signal-boosting
 mechanism should take **zero extra actions** if the user wants it so.
 
 It shouldn't be the default, but I want to set up **action-based
-auto-contribute**: "On twitter, by default, tip 1 BAT for every like. 10 for
-every RT."
+auto-contribute**: "On twitter, by default, tip 1 BAT for every like I give. 10
+for every RT."
 
 This on top of the time-spent auto-contribute that already exists. Time-spent
 doesn't work for apps with multiple publishers on the same page like Twitter /
@@ -71,7 +83,7 @@ When setting up the Brave Wallet, the user can define a **browser-wide default
 tip amount** which can be changed on individual cases.
 
 When the user changes the default for a specific tip, they can be given the
-option to save that amount for future tips _to that publisher_, on that
+option to save that amount for future tips either _to that publisher_, on that
 platform ("use this amount for every future RT"), or browser-wide.
 
 Be like Bezos. (On this specific context. Do pay your employees well.)
@@ -102,8 +114,9 @@ click "send now."
 
 If I change my mind, I click "cancel."
 
-This is a critical enabling factor for allowing defaults and removing obtrusive
-pre-tipping confirmation dialogs and post-tipping confirmation banners.
+This is a critical enabling factor for allowing defaults safely and removing
+obtrusive pre-tipping confirmation dialogs and post-tipping confirmation
+banners.
 
 It also enables
 **[offline](https://interplanetarygatsby.com/foreword/ "there is such thing as 'online'")
@@ -128,6 +141,14 @@ for pending tips to go through**. That is a very good incentive to fill up!
 
 It's like adding books to a wishlist or items to a cart. You can figure it out
 later.
+
+## Full (private) transparency
+
+I want to see a log of every tip to every publisher ever, regardless of whether
+it came from deliberate tipping, time-spent auto-contribute, action-based
+auto-contribute. Ideally, I can see a snapshot of what the tab looked like when
+I did it, how many BATs I gave, how much they were worth in USD at the time,
+etc., etc.
 
 ---
 
